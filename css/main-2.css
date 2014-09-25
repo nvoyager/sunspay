@@ -1,0 +1,115 @@
+﻿* {
+	margin:	0;
+	padding: 0;
+	font-family: 'Microsoft YaHei', 微软雅黑, STHeiti, sans-serif;
+	border-style: none;
+}
+
+body {
+	background-color: #fdfdfd; 
+	font-size: 14px;
+}
+
+/*************************    header start   *******************************/
+
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: #272f38;
+	color: #ffffff;
+}
+
+.header .main {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.header .main .logo {
+	float: left;
+	padding: 15px 0 0 0;
+	font-size: 20px;
+}
+
+.header .function {
+	width: 200px;
+	height: 60px;
+	float: right;
+	background-color: #364351;
+	font-size:16px;
+}
+
+.header .function li {
+	float: left;
+	padding-top: 18px;
+	width:100px;
+	text-align: center;
+}
+
+.header  .nav {
+	float: right;
+	font-size: 16px;
+	width: 300px;
+}
+
+.header  .nav li{
+	float: left ;
+	text-align: center;
+	padding: 18px 0 0 20px ;
+}
+
+.header .search {
+	float: right;
+	padding: 11px 0 0 0;
+}
+
+.header .search  input[type=button]{
+	background-color: #ff4a00;
+	color: #ffffff;
+	width: 50px;
+	height: 40px;
+	float: left;
+}
+
+.header .search  input[type=search]{
+	width: 220px;
+	height: 40px;
+	padding: 0 0 0 10px;
+	float: left;
+}
+
+
+
+ul {
+	list-style: none;
+}
+
+a {
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:focus {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+a:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+span {
+	display: block;
+}
